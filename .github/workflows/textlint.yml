@@ -2,7 +2,7 @@ name: blog-textlint
 on: [pull_request]
 jobs:
   textlint:
-    name: runner/textlint
+    name: runner / textlint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
