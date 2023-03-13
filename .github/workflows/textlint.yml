@@ -13,6 +13,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
+      - run: npm ci
       - name: textlint-github-pr-review
         uses: tsuyoshicho/action-textlint@v3
         with:
